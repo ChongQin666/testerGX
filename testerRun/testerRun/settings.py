@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'testerRun.testerApp',
+    'testerApp',
 ]
 
 MIDDLEWARE = [
@@ -50,7 +50,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         #'DIRS': [],
-        'DIRS': ['testerRun/vue_tester/dist'],
+        'DIRS': ['vue_tester/dist'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -128,7 +128,7 @@ STATIC_URL = 'static/'
 
 STATICFILES_DIRS=[
 
-    os.path.join(BASE_DIR,"vue_tester/dist/static")
+    os.path.join(BASE_DIR, "vue_tester/dist/static")
 
 ]
 
@@ -141,6 +141,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 跨域增加忽略
 CORS_ALLOW_CREDENTIALS = True   # 允许携带cookie
 CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ALLOW_HEADERS= ("*")
 CORS_ORIGIN_WHITELIST = (
     # 这里添加你允许的跨域来源，即设置白名单
     'http://127.0.0.1',

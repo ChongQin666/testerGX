@@ -10,6 +10,9 @@ import VueAxios from 'vue-axios'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+//引入外部css
+import '@/style/bootstrap-4.4.1.css'
+
 
 Vue.use(ElementUI)
 
