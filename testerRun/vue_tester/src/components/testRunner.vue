@@ -81,7 +81,7 @@
                   </h4>
                 </div>
                  <div class="show-standard">
-                  <h3 style="text-align: center">标准参数显示区</h3>>
+                  <h3 style="text-align: center">标准参数显示区</h3>
                   <h4>
                     CPUnumber : 2<br>
                     Architecture: loongarch64<br>
@@ -165,7 +165,7 @@
 			   	  <div class="textForHelp"><a class="buttonOfHelp btn" href="#" onclick="repeat()">操作帮助</a></div>
 			</div>
 
-                  </div>
+    </div>
 
 
     <footer class="text-center">

@@ -25,6 +25,8 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html')),
     path('add_user/', testerApp.views.add_user),
     path('show_user/', testerApp.views.show_users),
+
     path('show_testItems/', testerApp.views.show_testItems),
     path('add_testItems/', testerApp.views.add_testItems),
+    path('sn_scan_info/', testerApp.views.sn_scan_info),
 ]
